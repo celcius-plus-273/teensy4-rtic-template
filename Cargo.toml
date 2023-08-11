@@ -11,6 +11,15 @@ cortex-m = "0.7" # basic hal package for cortex m microcontroller boards
 embedded-hal = "0.2" # embedded hal provides traits that are implemented by most hal packages
 log = "0.4" # allows for the logging feautre (a.k.a printing to the serial port)
 
+# RTIC 2.0 dependencies
+[dependencies.rtic]
+version = "2.0.1"
+features = ["thumbv7-backend"]
+
+[dependencies.rtic-monotonics]
+version = "1.0.0"
+features = ["cortex-m-systick"]
+
 # teensy4-bsp is the board support package for teensy 4.0/4.1
 [dependencies.teensy4-bsp]
 version = "0.4"
