@@ -1,6 +1,8 @@
 # TEENSY4-RTIC-TEMPLATE
 
-Template for a teensy 4.0/4.1 rust embedded project
+Template for a teensy 4.0/4.1 rust RTIC embedded project
+
+This template uses the 2.0 version of RTIC
 
 ## rtic branch usage
 ### Dependencies
